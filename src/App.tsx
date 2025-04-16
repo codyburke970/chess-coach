@@ -21,9 +21,9 @@ function App() {
             <GameInfo fen={fen} />
             <SavedGames currentFen={fen} onLoadGame={setFen} />
           </div>
-        </div>
+      </div>
       </main>
-    </div>
+      </div>
   )
 }
 
